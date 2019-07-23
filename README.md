@@ -1,44 +1,4 @@
-<h1 align="center">
-    <img alt="Icon made by DinosoftLabs" src="https://image.flaticon.com/icons/svg/1801/1802292.svg" height="124" width="124"/>
-    <br>
-    GoBarber API
-</h1>
-
 This is an API created with NodeJS during [Rocketseat Bootcamp](https://rocketseat.com.br/bootcamp) in order to allow users to schedule appointments with a barber. For the barber it is possible to see a list with all his schedule and receive notifications of new appointments of cancellations through app and email.
-
-## :rocket: Installation
-
-Clone the repository
-
-```bash
-git clone https://github.com/thyagoaraujo/gobarber.git
-```
-
-Install the following docker containers:
-
-```bash
-docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
-docker run --name mongodb -p 27017:27017 -d -t mongo
-docker run --name redis -p 6379:6379 -d -t redis:alpine
-```
-
-Install the dependencies:
-
-```bash
-yarn
-```
-
-Run the following commands to run the server:
-
-```bash
-yarn dev
-```
-
-Open a new terminal and run the following command to run the queue manager:
-
-```bash
-yarn queue
-```
 
 ## :books: Technologies
 
