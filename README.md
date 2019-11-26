@@ -1,6 +1,8 @@
+# GoBarber API
+
 This is an API created with NodeJS during [Rocketseat Bootcamp](https://rocketseat.com.br/bootcamp) in order to allow users to schedule appointments with a barber. For the barber it is possible to see a list with all his schedule and receive notifications of new appointments of cancellations through app and email.
 
-## :books: Technologies
+## :rocket: Technologies
 
 This project was developed with the following technologies:
 
@@ -28,3 +30,9 @@ This project was developed with the following technologies:
 - [VS Code](https://code.visualstudio.com/) with [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
 ## :memo: License
+
+This project is under the MIT license. See the [LICENSE](https://github.com/thyagoaraujo/gobarber/blob/master/LICENSE.md) for more information.
+
+---
+
+Made with ♥ by Thyago Araujo :wave: [Get in touch!](https://www.linkedin.com/in/thyagosantosaraujo/)
